@@ -234,10 +234,15 @@ color: rgb(77, 136, 80);
 
 }
 .title{
-    text-align: center;
-    color: rgb(24, 212, 103);
-    font-size: 20px;
-    font-weight: initial;
+text-align: center;
+box-sizing: border-box;
+padding-right: 15px;
+padding-left: 15px;
+color: #1b1b1b;
+font-weight: 300;
+margin: .4em 0 0 0;
+line-height: 1.2em;
+margin-top:60px;
 }
 
 footer{
