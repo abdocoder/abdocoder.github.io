@@ -40,7 +40,7 @@ justify-content: space-between;
   box-sizing: border-box;
   padding-right: 15px;
   padding-left: 15px;
-  margin: 60px;
+  margin: 30px;
   text-align: center;
 }
 .about h1{
@@ -68,7 +68,7 @@ margin: 30px;
 .descp p{
   line-height: 2;
   margin: 0 0 1.3em;
-  font-family: 'Amstelvar Alpha', serif;
+  font-family:'Cairo', sans-serif;;
   font-weight: 400;
 
 }
