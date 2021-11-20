@@ -26,6 +26,8 @@ line-height: 1.2em;
 margin-top:60px;
 border-radius: 40px 15px;
 background-color: khaki;
+margin:60px;
+font-style: oblique;
 }
 .service{
 display: flex;
@@ -387,13 +389,6 @@ color: rgb(10, 17, 110);
   width: 100%;
   font-size: 18px;
 
-}
-.title{
-text-align: center;
-box-sizing: border-box;
-color: #1b1b1b;
-margin:60px;
-font-style: oblique;
 }
 
 footer{
