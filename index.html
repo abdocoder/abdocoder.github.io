@@ -143,35 +143,12 @@
                     <input type="hidden" name="_subject" value="New Sahleasy Order">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_next" value="https://abdocoder.github.io/Sahleasy/thank-you.html">
+                    <input type="hidden" name="_next" value="https://abdocoder.github.io/thank-you.html">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="order_summary" id="order-summary-input">
                     
                     <div class="order-form-wrapper">
-                        <div class="order-summary">
-                            <h3>Order Details</h3>
-                            <div class="order-items">
-                                <!-- Order items loaded via JavaScript -->
-                            </div>
-                            <div class="order-totals">
-                                <div class="summary-row">
-                                    <span>سعر الطلب:</span>
-                                    <span id="order-subtotal">0 DA</span>
-                                </div>
-                                <div class="summary-row">
-                                    <span>تخفيض:</span>
-                                    <span id="order-discount">0 DA</span>
-                                </div>
-                                <div class="summary-row">
-                                    <span>تكلفة التوصيل:</span>
-                                    <span id="order-delivery-cost">0 DA</span>
-                                </div>
-                                <div class="summary-row total">
-                                    <span>السعر النهائي شامل التوصيل :</span>
-                                    <span id="order-total">0 DA</span>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <p> ملاحظة: سعر التوصيل ثابت لكل الولايات ، سوف يتم تحصيل تلك الرسوم مضافة الي سعر الطلب عند الاستلام
 
                         </p>
@@ -207,7 +184,30 @@
     <option value="home">Home Delivery  للمنزل(+800 DA)</option>
     <option value="office">Office Delivery للمكتب(+400DA)</option>
                                 </select>
-                
+                 <div class="order-summary">
+                            <h3>Order Details</h3>
+                            <div class="order-items">
+                                <!-- Order items loaded via JavaScript -->
+                            </div>
+                            <div class="order-totals">
+                                <div class="summary-row">
+                                    <span>سعر الطلب:</span>
+                                    <span id="order-subtotal">0 DA</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>تخفيض:</span>
+                                    <span id="order-discount">0 DA</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>تكلفة التوصيل:</span>
+                                    <span id="order-delivery-cost">0 DA</span>
+                                </div>
+                                <div class="summary-row total">
+                                    <span>السعر النهائي شامل التوصيل :</span>
+                                    <span id="order-total">0 DA</span>
+                                </div>
+                            </div>
+                 </div>
                             
                             </div>
                             <button type="submit" class="btn submit-order-btn">Place Order</button>
@@ -237,7 +237,7 @@
                 <form class="contact-form" action="https://formsubmit.co/topmixblogger@gmail.com" method="POST">
                     <input type="hidden" name="_subject" value="New Contact from Sahleasy">
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://abdocoder.github.io/Sahleasy/thank-you.html">
+                    <input type="hidden" name="_next" value="https://abdocoder.github.io/thank-you.html">
                     <div class="form-group">
                         <label for="contact-name">Your Name</label>
                         <input type="text" id="contact-name" name="name" required>
