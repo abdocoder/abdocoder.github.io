@@ -3,20 +3,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: 'Lampwood base',
+            title: 'Lampwood base مصباح خشبي',
             originalPrice: 2500,
             discountPrice: 2000,
             image: 'images/lampwood.jpg',
             description: 'مصباح خشبي عصري صغير وبضوء خافت يعطيك جمالية لغرفتك'
         },
-        {
-            id: 2,
-            title: ' مصباح خشبي',
-            originalPrice: 2500,
-            discountPrice: 2000,
-            image: 'images/lampwood2.jpg',
-            description: ' مصنوع بالخشب يعطيك صلابة ومنظر جميل لغرفتك'
-        },
+       // {
+           // id: 2,
+          //  title: ' مصباح خشبي',
+         //   originalPrice: 2500,
+        //    discountPrice: 2000,
+         //   image: 'images/lampwood1.jpg',
+         //   description: ' مصنوع بالخشب يعطيك صلابة ومنظر جميل لغرفتك'
+      //  },
     ];
 
     // Algerian wilayas
