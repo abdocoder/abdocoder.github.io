@@ -2,85 +2,295 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my shop</title>
+    <title>Sahleasy - Online Shopping</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <div class="canvalogo">
-    <img src="images/logo.png" alt="">
-  </div>
-    <input type="checkbox" id="active">
-      <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-      <div class="wrapper">
-         <ul>
-            <li><a href="page/store.html">Home</a></li>
-            <li><a href="page/about us.html">About</a></li>
-            <li><a href="page/service.html">Services</a></li>
-            <li><a href="page/store.html">store</a></li>
-            <li><a href="page/CONTACT US.html">contact</a></li>
-         </ul>
-      </div>
-<br>
-    <p class="neons col-12"> Welcome Sahleasy</p>
-<div class="col">
-  <div class="coloncard">
-    <a href="page/store.html"><img src="images/Couverture store.png" alt=""></a>
-    <h3>shopping SahlEasy </h3>
-    <p> your shop visit it now </p>
-  </div>
-  <div class="coloncard">
-    <a href="page/service.html"><img src="images/Couverture service.png" alt=""></a>
-    <h3>My services</h3>
-    <p> نقدم لك خدمات لترقية مشروعك تعرف اكثر  </p>
-  </div>
-  <div class="coloncard">
-    <a href="page/service.html"><img src="images/Couverture website.png" alt=""></a>
-    <h3>About your website </h3>
-    <p> make your website  </p>
-  </div>
-  </div>    
+    <header>
+        <div class="logo-container">
+           <img src="images/logo.png" alt="Sahleasy Logo" class="logo">
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" class="active" data-page="home">Home</a></li>
+                <li><a href="#" data-page="products">Products</a></li>
+                <li><a href="#" data-page="contact">Contact</a></li>
+                <li><a href="#" class="cart-icon" data-page="checkout"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
 
- <footer>
-  <div class="main-content">
-    <div class="left box">
-      <a href="page/about us.html">About us</a>
-      <a href="page/Privasy  policy.html">Privacy Policy</a>
-      <a href="page/CONTACT US.html">Contact Us</a>
-      <a href="page/TERMS OF SERVICE.html">Terms of Service</a>
-      <div class="content">
-        <div class="social">
-          <h2>follow me</h2>
-          <a href=""><span class="fab fa-facebook-f"></span></a>
-          <a href=""><span class="fab fa-instagram"></span></a>
+    <main>
+        <!-- Home Page -->
+        <section id="home-page" class="page active">
+            <div class="hero">
+        
+                <h2>اكتشفوا اخر منتجاتنا </h2>
+            
+                <p>Livraison 58 wilaya..</p>
+
+            </div>
+            
+            <div class="featured-products">
+                <h3>Royal Products</h3>
+                <h3>منتوجات الاكثر طلبا</h3>
+                <div class="products-grid">
+                    <!-- Products loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Page -->
+        <section id="products-page" class="page">
+            <h2> tout mes Products</h2>
+            <h2>توصيل 58 ولاية</h2>
+            <div class="products-grid">
+                <!-- Products loaded via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Product Detail Page -->
+        <section id="product-detail-page" class="page">
+            <div class="product-detail-container">
+                <a href="#" class="back-btn" data-page="home"><i class="fas fa-arrow-left"></i> الصفحة الرئيسية</a>
+                <div class="product-detail">
+                    <div class="product-image-container">
+                        <img id="detail-product-image" src="" alt="Product Image" class="product-detail-image">
+                    </div>
+                    <div class="product-info-container">
+                        <h2 id="detail-product-title"></h2>
+                        <div class="price-container">
+                            <span class="original-price" id="detail-original-price"></span>
+                            <span class="discount-price" id="detail-discount-price"></span>
+                        </div>
+                        <p class="product-description" id="detail-product-description"></p>
+                        
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity:</label>
+                            <select id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        
+                        <div class="discount-info">
+                            <p><i class="fas fa-tag"></i> تخفيض 200دج لاثنين و500 دج عند اخذك 3 طلبيات</p>
+                        </div>
+                        
+                        <button class="btn add-to-cart-btn" id="add-to-cart">اضف الى السلة</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Checkout Page -->
+        <section id="checkout-page" class="page">
+            <div class="checkout-container">
+                <a href="#" class="back-btn" data-page="home"><i class="fas fa-arrow-left"></i> واصل التسوق</a>
+                <h2>طلبياتك</h2>
+                
+                <div class="checkout-notice">
+                    <p><i class="fas fa-star"></i> Produit Algérienne de Qualité</p>
+                    <p><i class="fas fa-truck"></i> Livraison dans les 58 Wilayas</p>
+                    <p><i class="fas fa-smile"></i> Enjoy!</p>
+                </div>
+                
+                <div class="cart-items">
+                    <div class="cart-items-list">
+                        <!-- Cart items loaded via JavaScript -->
+                    </div>
+                    <div class="cart-summary">
+                        <div class="summary-row">
+                            <span>سعر الطلبية</span>
+                            <span id="subtotal">0 DA</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>تخفيض</span>
+                            <span id="discount">0 DA</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>السعر بدون توصيل:</span>
+                            <span id="total">0 DA</span>
+                        </div>
+                        <button class="btn checkout-btn"> اتمام معلومات الطلب</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Form Page -->
+        <section id="order-form-page" class="page">
+            <div class="order-form-container">
+                <a href="#" class="back-btn" data-page="checkout"><i class="fas fa-arrow-left"></i> طلبياتك</a>
+                <h2>Completer voter commande</h2>
+                
+                <div class="order-notice">
+                    <p><i class="fas fa-star"></i> Produit Algérienne de Qualité</p>
+                    <p><i class="fas fa-truck"></i> Livraison dans les 58 Wilayas</p>
+                    <p><i class="fas fa-smile"></i> Enjoy!</p>
+                </div>
+                
+                <form class="order-form" action="https://formsubmit.co/topmixblogger@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Sahleasy Order">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_next" value="https://abdocoder.github.io/Sahleasy/thank-you.html">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="order_summary" id="order-summary-input">
+                    
+                    <div class="order-form-wrapper">
+                        <div class="order-summary">
+                            <h3>Order Details</h3>
+                            <div class="order-items">
+                                <!-- Order items loaded via JavaScript -->
+                            </div>
+                            <div class="order-totals">
+                                <div class="summary-row">
+                                    <span>سعر الطلب:</span>
+                                    <span id="order-subtotal">0 DA</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>تخفيض:</span>
+                                    <span id="order-discount">0 DA</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>تكلفة التوصيل:</span>
+                                    <span id="order-delivery-cost">0 DA</span>
+                                </div>
+                                <div class="summary-row total">
+                                    <span>السعر النهائي شامل التوصيل :</span>
+                                    <span id="order-total">0 DA</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p> ملاحظة: سعر التوصيل ثابت لكل الولايات ، سوف يتم تحصيل تلك الرسوم مضافة الي سعر الطلب عند الاستلام
+
+                        </p>
+                        
+                        <div class="shipping-form">
+                            <h3>Shipping Information معلومات التوصيل</h3>
+                            <br>
+                            <div class="form-group">
+                                <label for="order-name">Full Name اسمك الكامل</label>
+                                <input type="text" id="order-name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="order-phone">Phone Number رقم هاتفك</label>
+                                <input type="tel" id="order-phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="order-wilaya">Wilaya ولابتك</label>
+                                <select id="order-wilaya" name="wilaya" required>
+                                    <option value="">اختر الولاية</option>
+                                    <!-- Algerian wilayas loaded via JavaScript -->
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="order-adresse">adresse ادخل عنوانك</label>
+                                <input type="text" id="order-name" name="adresse" required>
+                            </div>
+                            <div class="form-group">
+                                
+                                <!-- hadi li zedtha -->
+                                
+                                <select id="delivery-method" name="delivery_method" required>
+    <option value="" disabled selected>خيارات الشحن</option>
+    <option value="home">Home Delivery  للمنزل(+800 DA)</option>
+    <option value="office">Office Delivery للمكتب(+400DA)</option>
+                                </select>
+                
+                            
+                            </div>
+                            <button type="submit" class="btn submit-order-btn">Place Order</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+
+        <!-- Contact Page -->
+        <section id="contact-page" class="page">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-phone"></i> +213 697 25 19 03</p>
+                    <p><i class="fas fa-envelope"></i> sahleasy@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Algeria</p>
+                    
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formsubmit.co/topmixblogger@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Contact from Sahleasy">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://abdocoder.github.io/Sahleasy/thank-you.html">
+                    <div class="form-group">
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" id="contact-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Your Email</label>
+                        <input type="email" id="contact-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Your Message</label>
+                        <textarea id="contact-message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Sahleasy Logo">
+                <h3>Sahleasy</h3>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#" data-page="home">Home</a></li>
+                    <li><a href="#" data-page="products">Products</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> +213 697 25 19 03</p>
+                <p><i class="fas fa-envelope"></i> sahleasy@gmail.com</p>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="center box">
-      <h2>contact</h2>
-      <div class="content">
-        <div class="place">
-          <span class="fas fa-map-marker-alt"></span>
-          <span class="text">algeria dz</span>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sahleasy. All Rights Reserved.</p>
         </div>
-        <div class="email">
-          <span class="fas fa-envelope"></span>
-          <span class="text">sahleasy@gmail.com</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<div class="bottom">
-  <center>
-    <span class="credit">Created By <a href="index.html">SahlEasy</a> | </span>
-    <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
-  </center>
-</div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
