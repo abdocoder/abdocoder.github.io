@@ -9,29 +9,37 @@ document.addEventListener('DOMContentLoaded', function() {
             image: 'images/lampwood.jpg',
             description: 'مصباح خشبي عصري صغير وبضوء خافت يعطيك جمالية لغرفتك'
         },
-      //  {
-       //     id: 2,
-         //  title: ' حامل نباتات عصري étagère pour les plantes',
-      //    originalPrice: 2500,
-     //    discountPrice: 2000,
-     //     image: 'images/étagère 1.jpg',
-       //   description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
-      //  },
-      //  {  id: 3,
-        //   title: ' حامل نباتات عصري étagère pour les plantes doublé',
-       //   originalPrice: 3000,
-       //  discountPrice: 2800,
-       //   image: 'images/étagère 2.jpg',
-       //   description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
-//},
-     //   {
-        //    id: 4,
-       //    title: ' حامل نباتات عصري étagère pour les plantes',
-     //     originalPrice: 2500,
-     //    discountPrice: 2000,
-       //   image: 'images/étagère 2-2.jpg',
-      //    description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
-   //     },
+        {
+            id: 2,
+           title: ' حامل نباتات عصري étagère pour les plantes',
+         originalPrice: 2300,
+        discountPrice: 2000,
+         image: 'images/eta.jpg',
+          description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
+        },
+        {  id: 3,
+          title: ' حامل نباتات عصري étagère pour les plantes doublé',
+          originalPrice: 3000,
+        discountPrice: 2800,
+          image: 'images/etagg.jpg',
+         description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
+},
+       {
+           id: 4,
+           title: ' حامل نباتات عصري étagère pour les plantes',
+          originalPrice: 2300,
+       discountPrice: 2000,
+          image: 'images/etaaa.jpg',
+        description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
+       },
+        {
+           id: 5,
+           title: ' حامل نباتات عصري étagère pour les plantes doublé',
+          originalPrice: 3000,
+       discountPrice: 2800,
+          image: 'images/etagere.jpg',
+        description: 'مصنوع بالخشب يعطيك صلابة ومنظر عصري  '
+       },
     ];
 
     // Algerian wilayas
