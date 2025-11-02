@@ -23,13 +23,21 @@ document.addEventListener('DOMContentLoaded', function() {
          discountPrice: 2800,
           image: 'images/étagère2.jpg',
           description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
-}
+},
         {
             id: 4,
            title: ' حامل نباتات عصري étagère pour les plantes',
           originalPrice: 2500,
          discountPrice: 2000,
           image: 'images/étagère2-2.jpg',
+          description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
+        },
+        {
+            id: 5,
+           title: ' حامل نباتات عصري étagère pour les plantes',
+          originalPrice: 2500,
+         discountPrice: 2000,
+          image: 'images/étagère1-1.jpg',
           description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
         },
     ];
