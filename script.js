@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'رف جداري من الخشب الطبيعي، مثالي لعرض النباتات الصغيرة أو قطع الديكور. تصميم بسيط وأنيق مصنوع يدويًا Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
         },
         {
-            id: 4,
-           title: '🌿 حامل نباتات عصري étagère pour les plantes',
+            id: 2,
+           title: '🌿 حامل نباتات عصري étagère pour les plantes doublé',
          originalPrice: 3000,
         discountPrice: 2800,
          image: 'images/etagere.jpg',
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: 'رف جداري من الخشب الطبيعي، مثالي لعرض النباتات الصغيرة أو قطع الديكور. تصميم بسيط وأنيق مصنوع يدويًا  Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
        },
         {
-           id: 2,
+           id: 4,
            title: '🌿 حامل نباتات عصري étagère pour les plantes doublé',
           originalPrice: 3000,
        discountPrice: 2800,
