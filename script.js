@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: 'Lampwood base مصباح خشبي',
+            title: 'étagère pour les plantes',
             originalPrice: 2500,
             discountPrice: 2000,
-            image: 'images/lampwood.jpg',
+            image: 'images/eta.jpg',
             description: 'مصباح خشبي عصري صغير وبضوء خافت يعطيك جمالية لغرفتك'
         },
         {
@@ -14,30 +14,24 @@ document.addEventListener('DOMContentLoaded', function() {
            title: ' حامل نباتات عصري étagère pour les plantes',
          originalPrice: 2300,
         discountPrice: 2000,
-         image: 'images/eta.jpg',
-          description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
+         image: 'images/etagere.jpg',
+          description: 'étagère pour les plantes '
         },
-        {  id: 3,
-          title: ' حامل نباتات عصري étagère pour les plantes doublé',
-          originalPrice: 3000,
-        discountPrice: 2800,
-          image: 'images/etagg.jpg',
-         description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
-},
+ 
        {
-           id: 4,
+           id: 3,
            title: ' حامل نباتات عصري étagère pour les plantes',
           originalPrice: 2300,
        discountPrice: 2000,
-          image: 'images/etaaa.jpg',
+          image: 'images/plant.png',
         description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
        },
         {
-           id: 5,
+           id: 4,
            title: ' حامل نباتات عصري étagère pour les plantes doublé',
           originalPrice: 3000,
        discountPrice: 2800,
-          image: 'images/etagere.jpg',
+          image: 'images/double.png',
         description: 'مصنوع بالخشب يعطيك صلابة ومنظر عصري  '
        },
     ];
