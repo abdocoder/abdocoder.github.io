@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'مصباح خشبي عصري صغير وبضوء خافت يعطيك جمالية لغرفتك'
         },
         {
-            id: 2,
+            id: 4,
            title: ' حامل نباتات عصري étagère pour les plantes',
          originalPrice: 3000,
         discountPrice: 2800,
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
        },
         {
-           id: 4,
+           id: 2,
            title: ' حامل نباتات عصري étagère pour les plantes doublé',
           originalPrice: 3000,
        discountPrice: 2800,
