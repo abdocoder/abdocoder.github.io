@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: '🌿 Étagère Murale en Bois Naturel – Minimaliste et Élégante',
+            title: '🌿 Étagère Murale en Bois Naturel',
             originalPrice: 2500,
             discountPrice: 2000,
             image: 'images/eta.jpg',
@@ -11,24 +11,24 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 4,
-           title: ' حامل نباتات عصري étagère pour les plantes',
+           title: '🌿 حامل نباتات عصري étagère pour les plantes',
          originalPrice: 3000,
         discountPrice: 2800,
          image: 'images/etagere.jpg',
-          description: 'Étagère murale double en bois naturel, idéale pour vos plantes et objets déco. Son design moderne et épuré apporte une touche chaleureuse à votre intérieur. '
+          description: 'رف جداري مزدوج من الخشب الطبيعي، مثالي للنباتات وقطع الديكور. تصميم عصري وبسيط يضيف لمسة دافئة إلى ديكور منزلك Étagère murale double en bois naturel, idéale pour vos plantes et objets déco. Son design moderne et épuré apporte une touche chaleureuse à votre intérieur. '
         },
  
        {
            id: 3,
-           title: ' حامل نباتات عصري étagère pour les plantes',
+           title: ' 🌿حامل نباتات عصري étagère pour les plantes',
           originalPrice: 2300,
        discountPrice: 2000,
           image: 'images/plant.png',
-        description: ' Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
+        description: 'رف جداري من الخشب الطبيعي، مثالي لعرض النباتات الصغيرة أو قطع الديكور. تصميم بسيط وأنيق مصنوع يدويًا  Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
        },
         {
            id: 2,
-           title: ' حامل نباتات عصري étagère pour les plantes doublé',
+           title: '🌿 حامل نباتات عصري étagère pour les plantes doublé',
           originalPrice: 3000,
        discountPrice: 2800,
           image: 'images/double.png',
