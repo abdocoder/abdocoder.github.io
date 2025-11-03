@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             originalPrice: 2500,
             discountPrice: 2000,
             image: 'images/eta.jpg',
-            description: 'رف جداري من الخشب الطبيعي، مثالي لعرض النباتات الصغيرة أو قطع الديكور. تصميم بسيط وأنيق مصنوع يدويًاÉtagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
+            description: 'رف جداري من الخشب الطبيعي، مثالي لعرض النباتات الصغيرة أو قطع الديكور. تصميم بسيط وأنيق مصنوع يدويًا Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
         },
         {
             id: 4,
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
          originalPrice: 3000,
         discountPrice: 2800,
          image: 'images/etagere.jpg',
-          description: 'étagère pour les plantes '
+          description: 'Étagère murale double en bois naturel, idéale pour vos plantes et objets déco. Son design moderne et épuré apporte une touche chaleureuse à votre intérieur. '
         },
  
        {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
           originalPrice: 2300,
        discountPrice: 2000,
           image: 'images/plant.png',
-        description: 'رف جداري مزدوج من الخشب الطبيعي، مثالي للنباتات وقطع الديكور. تصميم عصري وبسيط يضيف لمسة دافئة إلى ديكور منزلك Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
+        description: ' Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
        },
         {
            id: 2,
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
           originalPrice: 3000,
        discountPrice: 2800,
           image: 'images/double.png',
-        description: 'مصنوع بالخشب يعطيك صلابة ومنظر عصري  '
+        description: 'مصنوع بالخشب يعطيك صلابة ومنظر عصري رف جداري مزدوج من الخشب الطبيعي، مثالي للنباتات وقطع الديكور. تصميم عصري وبسيط يضيف لمسة دافئة إلى ديكور منزلك  '
        },
     ];
 
