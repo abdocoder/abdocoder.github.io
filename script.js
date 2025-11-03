@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 2,
            title: ' حامل نباتات عصري étagère pour les plantes',
-         originalPrice: 2300,
-        discountPrice: 2000,
+         originalPrice: 3000,
+        discountPrice: 2800,
          image: 'images/etagere.jpg',
           description: 'étagère pour les plantes '
         },
