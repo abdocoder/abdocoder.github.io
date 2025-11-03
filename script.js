@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             id: 1,
-            title: 'étagère pour les plantes',
+            title: '🌿 Étagère Murale en Bois Naturel – Minimaliste et Élégante',
             originalPrice: 2500,
             discountPrice: 2000,
             image: 'images/eta.jpg',
-            description: 'مصباح خشبي عصري صغير وبضوء خافت يعطيك جمالية لغرفتك'
+            description: 'رف جداري من الخشب الطبيعي، مثالي لعرض النباتات الصغيرة أو قطع الديكور. تصميم بسيط وأنيق مصنوع يدويًاÉtagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
         },
         {
             id: 4,
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
           originalPrice: 2300,
        discountPrice: 2000,
           image: 'images/plant.png',
-        description: 'مصنوع بالخشب يعطيك صلابة ومنظر جميل '
+        description: 'رف جداري مزدوج من الخشب الطبيعي، مثالي للنباتات وقطع الديكور. تصميم عصري وبسيط يضيف لمسة دافئة إلى ديكور منزلك Étagère murale en bois naturel, parfaite pour exposer vos petites plantes ou objets déco. Design simple, élégant et fait main.'
        },
         {
            id: 2,
